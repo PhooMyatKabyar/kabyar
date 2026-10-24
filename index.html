@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4ead8">
+  <title>For the Boy You Were</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="backgroundMusic" src="photograph.mp3" loop preload="none"></audio>
+  <button class="music-toggle" id="musicToggle" aria-label="Play background music" title="Play or pause music">
+    <span class="music-icon">♫</span><span id="musicLabel">Play sound</span>
+  </button>
+
+  <main>
+    <section class="hero paper-section" id="home">
+      <div class="tape tape-one"></div><div class="tape tape-two"></div>
+      <p class="eyebrow">A little trip through your life</p>
+      <h1>For the boy<br><em>you were,</em><br>and the man<br>you're becoming.</h1>
+      <p class="hero-copy">A tiny album of the memories, people, and little things that helped make you <em>you.</em></p>
+      <button class="primary-btn" data-scroll="#album">Open your album <span>↘</span></button>
+      <div class="hero-stamp">made with<br><span>love</span> ♡</div>
+      <div class="floating-photo photo-one"><img src="photos/bby1.jpg" alt="A childhood memory placeholder"><span>little you ♡</span></div>
+      <div class="floating-photo photo-two"><img src="photos/bby3.jpg" alt="Another childhood memory placeholder"><span>once upon a time</span></div>
+      <div class="scribble">remember<br>this? ↗</div>
+    </section>
+
+    <section class="chapter" id="album">
+      <div class="chapter-heading">
+        <span class="chapter-number">01 / THE BEGINNING</span>
+        <h2>Once upon a <em>little boy.</em></h2>
+        <p>Before all the things you know now, there was this little person discovering the world one day at a time.</p>
+      </div>
+      <div class="album-spread paper-section">
+        <div class="album-note"><span class="handwritten">Dear little you,</span><p>I wonder what you were thinking about in these pictures. What made you laugh? What were you dreaming of? I wish I could have met you back then.</p><span class="tiny-heart">♡</span></div>
+        <figure class="polaroid tilt-left"><img src="photos/bby4.jpg" alt="Childhood photo one"><figcaption>the world was so big</figcaption></figure>
+        <figure class="polaroid tilt-right"><img src="photos/bby7.jpg" alt="Childhood photo two"><figcaption>and you were so little</figcaption></figure>
+        <figure class="polaroid tilt-small"><img src="photos/bby6.jpg" alt="Childhood photo three"><figcaption>a little piece of forever</figcaption></figure>
+      </div>
+      <div class="center-note">Turn the page — there's more to remember <span>↓</span></div>
+    </section>
+
+    <section class="chapter family-chapter" id="family">
+      <div class="chapter-heading">
+        <span class="chapter-number">02 / YOUR FIRST HOME</span>
+        <h2>The people who loved you <em>first.</em></h2>
+        <p>This is where your story begins. These are some of the people and moments that helped make yours.</p>
+      </div>
+      <div class="family-stage" id="familyStage">
+        <div class="family-center">
+          <div class="center-photo"><img src="photos/fam1.jpg" alt="Family photo"></div>
+          <span class="handwritten">your people, your home</span>
+        </div>
+        <figure class="family-pop pop-a"><img src="photos/fam2.jpg" alt="Family memory one"><figcaption>your safe place ♡</figcaption></figure>
+        <figure class="family-pop pop-b"><img src="photos/fam9.jpg" alt="Family memory two"><figcaption>mommy's favorite</figcaption></figure>
+        <figure class="family-pop pop-c"><img src="photos/fam4.jpg" alt="Family memory three"><figcaption>your shwe lin thant</figcaption></figure>
+        <figure class="family-pop pop-d"><img src="photos/fam5.jpg" alt="Family memory four"><figcaption>little moments</figcaption></figure>
+        <span class="family-doodle doodle-a">all your love ↗</span><span class="family-doodle doodle-b">where your heart belongs♡</span>
+      </div>
+      <p class="soft-caption">Some memories are blurry with time. The love in them doesn't have to be.</p>
+    </section>
+
+    <section class="chapter favorites" id="favorites">
+      <div class="chapter-heading">
+        <span class="chapter-number">03 / LITTLE THINGS YOU LOVE</span>
+        <h2>Your own little <em>world.</em></h2>
+        <p>The hobbies, sounds, and adventures that make you feel like yourself.</p>
+      </div>
+      <div class="favorite-grid">
+        <article class="favorite-card">
+          <div class="favorite-image"><img src="photos/vlogs.jpg" alt="Vlogging memory"><span class="doodle-icon">▶</span></div>
+          <p class="card-kicker">CHAPTER A</p><h3>Vlogs & little adventures</h3><p>Remember the little boy who loved recording his world? also lucky you got to explore many places</p>
+        </article>
+        <article class="favorite-card favorite-card-offset">
+          <div class="favorite-image"><img src="photos/guitar.jpg" alt="Guitar memory"><span class="doodle-icon">♫</span></div>
+          <p class="card-kicker">CHAPTER B</p><h3>Your guitar</h3><p>Somewhere along the way, you found a little piece of yourself in music.</p>
+        </article>
+        <article class="favorite-card">
+          <div class="favorite-image"><img src="photos/bike.jpg" alt="Bike memory"><span class="doodle-icon">↗</span></div>
+          <p class="card-kicker">CHAPTER C</p><h3>Your bike</h3><p>Maybe you’ve grown up, but I hope a part of you still remembers the joy of riding with nowhere to be.</p>
+        </article>
+      </div>
+      <div class="margin-note">keep doing what makes your eyes light up <span>♡</span></div>
+    </section>
+
+    <section class="chapter question-chapter" id="question">
+      <div class="question-card paper-section">
+        <span class="chapter-number">04 / A LITTLE QUESTION</span>
+        <span class="tiny-star">✳</span>
+        <h2>Who holds one of the <em>softest places</em> in your childhood heart?</h2>
+        <p>Choose the person whose love and memories mean something special to you.</p>
+        <div class="choice-row" role="group" aria-label="Choose an important person from your childhood">
+          <button class="choice-btn" data-choice="mom"><span class="choice-emoji">♡</span>Mom</button>
+          <button class="choice-btn" data-choice="dad"><span class="choice-emoji">♡</span>Dad</button>
+          <button class="choice-btn grandpa-choice" data-choice="grandpa"><span class="choice-emoji">✳</span>Grandpa</button>
+        </div>
+        <p class="choice-hint" id="choiceHint" aria-live="polite">Pick whichever name feels closest to your heart.</p>
+      </div>
+    </section>
+
+    <section class="chapter grandpa-chapter hidden" id="grandpa">
+      <div class="grandpa-intro">
+        <span class="chapter-number">05 / YOUR SPECIAL PERSON</span>
+        <h2>Some love stays with us <em>forever.</em></h2>
+        <p>And then, there's Grandpa.I know no words can make missing him easier, but I hope these little memories remind you that the love you shared didn't disappear when he left.</p>
+      </div>
+      <div class="grandpa-gallery">
+        <figure class="polaroid grandpa-photo gp-one"><img src="photos/grandpa1.jpg" alt="Grandpa memory one"><figcaption>you and your grandpa ♡</figcaption></figure>
+        <figure class="polaroid grandpa-photo gp-two"><img src="photos/grandpa2.jpg" alt="Grandpa memory two"><figcaption>a memory to keep</figcaption></figure>
+        <figure class="polaroid grandpa-photo gp-three"><img src="photos/grandpa3.jpg" alt="Grandpa memory three"><figcaption>always part of your story</figcaption></figure>
+      </div>
+      <blockquote class="grandpa-quote">“Some people leave fingerprints on our hearts that time can never erase.”</blockquote>
+      <p class="grandpa-personal">I hope you always remember how loved you have been, and Grandpa would be so proud of the person you’re becoming. His love will always be a part of you. ♡<span>♡</span></p>
+      <button class="primary-btn" data-scroll="#present">Let's see the boy you've become <span>↘</span></button>
+    </section>
+
+    <section class="chapter present-chapter" id="present">
+      <div class="chapter-heading">
+        <span class="chapter-number">06 / RIGHT HERE, RIGHT NOW</span>
+        <h2>Look at the person you're <em>becoming.</em></h2>
+        <p>You have grown through days nobody else fully saw. You are learning, trying, changing, and finding your own way — and that matters more than you know.</p>
+      </div>
+      <div class="present-layout">
+        <figure class="present-main"><img src="photos/now3.jpg" alt="A recent photo of him"><figcaption>this is you, right now</figcaption></figure>
+        <div class="present-side">
+          <figure class="present-small"><img src="photos/now2.jpg" alt="A present-day memory"><figcaption>little wins count, too</figcaption></figure>
+          <div class="present-note paper-section"><span class="handwritten">A reminder for you</span><p>You don't have to have everything figured out. You can rest. You can start again. You can be proud of the small steps. I hope you keep chasing the things that make you feel alive.</p><span class="tiny-heart">♡</span></div>
+        </div>
+      </div>
+      <div class="affirmations"><span>you are growing</span><span>you are allowed to rest</span><span>you are loved, always</span></div>
+    </section>
+
+    <section class="chapter letter-chapter" id="letter">
+      <div class="letter-heading">
+        <span class="chapter-number">07 / ONE LAST THING</span>
+        <h2>Something I've been wanting to <em>tell you.</em></h2>
+        <p>There's a little letter here, just for you.</p>
+      </div>
+      <button class="envelope" id="openLetter" aria-expanded="false" aria-controls="loveLetter">
+        <span class="envelope-flap"></span><span class="envelope-heart">♡</span>
+        <span class="envelope-label">To my favorite person</span><span class="envelope-small">open when you're ready</span>
+      </button>
+      <article class="love-letter hidden" id="loveLetter">
+        <div class="letter-paper">
+          <span class="handwritten">To my love,</span>
+          <p>I wish I could have known the little boy you once were. I wish I could have been there for the moments that made you laugh, the days you felt small, and the memories that helped make you who you are.</p>
+          <p>I get to know your heart, your little habits, the things that make your eyes light up, the dreams you carry, and even the parts of yourself you don't always know how to explain. And sometimes, I wish you could see yourself through my eyes, just so you could understand how <em>precious</em>you are to me.</p>
+          <p>I hope you never forget the people who loved you first. Especially Grandpa. I hope that whenever you miss him, you remember how much love he left behind in you.</p>
+          <p>You don't have to be perfect for me. You don't have to be strong every second. You don't have to hide the parts of you that are tired, scared, or hurting.</p>
+          <p>If I could, I'd love every version of you — the little boy, the teenager, and every version of you still waiting to grow. I'm proud of you, and I'm happy I get to be a part of your story.</p>
+          <p>Thank you for being you, my love. I hope this little website takes you back to the days you wish you could relive, brings back the little memories you've almost forgotten, and reminds you of the little boy you'll always be inside.♡</p>
+          <p class="letter-signoff">All my love, always,<br><span class="handwritten">your girl ♡</span></p>
+        </div>
+      </article>
+      <p class="ending-note hidden" id="endingNote">The album ends here. My love for you doesn't. ♡</p>
+    </section>
+    <footer><span>made with a little paper, a lot of memories, and so much love</span><span>♡</span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
